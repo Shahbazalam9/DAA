@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Visualization</title>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+  <div id="header">
+    <h1>Sorting Algorithm Visualization</h1>
+  </div>
+  <div id="main-container" >
+    <input type="text" id="inputArray" placeholder="Enter comma-separated numbers">
+  </div>
+
+  <div id="algo">
+    <button onclick="sort('bubble')">Bubble Sort</button>
+    <button onclick="sort('selection')">Selection Sort</button>
+    <button onclick="sort('insertion')">Insertion Sort</button>
+    <button onclick="sort('merge')">Merge Sort</button>
+    <button onclick="sort('quick')">Quick Sort</button>
+  </div>
+  
+  <div>
+    <div id="array-container"></div>
+    <div id="output-container"></div>
+    <div id="time-complexity"></div>
+  </div>
+   <script src="index.js"></script>
+</body>
+</html>
